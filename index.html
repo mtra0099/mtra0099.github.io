@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css">
     <title>My Portfolio</title>
   </head>
   <body>
@@ -28,7 +29,30 @@
     <!-- End Hero Header -->
 
     <!-- Begin Portfolio -->
-
+    <section class="portfolio-container">
+      <h1>Portfolio</h1>
+      <section class="portfolio-gallery">
+        <div class="gallery-item">
+          <a href="img/2020-11-25 01_56_24-old dragon ball krillin - Google Search.png" class="glightbox">
+            <img src="img/2020-11-25 01_56_24-old dragon ball krillin - Google Search.png" alt="A image of krillin" class="gallery-item">
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="img/image0.jpg" class="glightbox">
+            <img src="img/image0.jpg" alt="A image of a baller" class="gallery-item">
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="img/avatarbiggerwhite.png" class="glightbox">
+            <img src="img/avatarbiggerwhite.png" alt="A image of a baller" class="gallery-item">
+          </a>
+        </div>
+      </section>
+    </section>
     <!-- End Portfolio -->
+    <script src="js/glightbox.min.js"></script>
+    <script type="text/javascript"> 
+    const lightbox = GLightbox({ loop: true });
+    </script>
   </body>
 </html>
